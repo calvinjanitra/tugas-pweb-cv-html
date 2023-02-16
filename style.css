@@ -1,0 +1,51 @@
+body {
+    background-color: #f9f5e7;
+}
+.container {
+    position: relative;
+    width: 80%;
+    height: 50%;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #f9f5e7;
+    justify-content: center;
+}
+
+.container .left {
+    position: relative;
+    background: #a7727d;
+    padding: 50px;
+}
+.container .right {
+    position: relative;
+    background: #eddbc7;
+}
+
+.profileimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileimg img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.left h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.left h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.left .name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
